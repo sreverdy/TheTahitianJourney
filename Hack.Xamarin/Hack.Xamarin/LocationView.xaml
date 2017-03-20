@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Hack.Xamarin.LocationView">
+    <StackLayout>
+        <Label x:Name="Description"/>
+        <Button Text="Prendre une photo" Clicked="Button_Clicked" />
+        <Image x:Name="MaPhoto"/>
+        <Editor x:Name="MonEditor"/>
+        <Button x:Name="OKButton" Text="OK" Clicked="OK_Clicked" IsVisible="false" /> 
+    </StackLayout>
+</ContentPage>

@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+        
+             x:Class="Hack.Xamarin.Page1" Title="The Tahitian Journey">
+    <StackLayout>
+        <Label Text="The Tahitian Journey"  
+           VerticalOptions="Center" 
+           HorizontalOptions="Center" />
+        <Label Text="Share" 
+           VerticalOptions="Center" 
+           HorizontalOptions="Center" />
+        <Label Text="Save Online" 
+           VerticalOptions="Center" 
+           HorizontalOptions="Center" />
+        <Label Text="Explore" 
+           VerticalOptions="Center" 
+           HorizontalOptions="Center" />
+        <Label Text="Achievements" 
+           VerticalOptions="Center" 
+           HorizontalOptions="Center" />
+        <Button Text="test" Clicked="Button_Clicked"/>
+        <Label  x:Name="testGPS" />
+
+    </StackLayout>
+  
+    
+</ContentPage>
